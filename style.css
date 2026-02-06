@@ -1,0 +1,76 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Pricing Card */
+.pricing-card {
+  width: 100%;
+  max-width: 320px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.pricing-card__title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* Price */
+.pricing-card__price {
+  font-size: 1.2rem;
+  color: #2e7d32;
+  margin-bottom: 16px;
+}
+
+.pricing-card__price span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Features */
+.pricing-card__features {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.pricing-card__features li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+/* Button */
+.pricing-card__btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.pricing-card__btn:hover {
+  background-color: #1e40af;
+}
+
+.pricing-card__btn:active {
+  transform: scale(0.98);
+}
